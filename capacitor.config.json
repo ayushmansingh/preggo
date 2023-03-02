@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "preggo",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,7 @@
+{
+  "name": "preggo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
