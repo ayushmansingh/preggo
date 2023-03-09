@@ -3,30 +3,5 @@
         "imageURL" :  "assets/beyond.1.jpg",
         "text" : "MotherToBaby Texas TIPS is a free and confidential telephone counseling service that provides information about exposures related to pregnancy and breastfeeding.",
         "header" : "Texas TIPS | Texas Teratogen Information in Pregnancy"
-    },
-    {
-        "imageURL" :  "assets/Breastmilk_vert_Eng_CMYK.jpg",
-        "text" : "During a woman’s pregnancy, the WIC Program teaches her how to breastfeed. Once she’s had her baby, WIC provides peer counseling and support as well as breast pumps and other breastfeeding supplies. Breastfeeding moms on WIC also receive more food and for a longer time period.",
-        "header" : "WIC Breastfeeding Support"
-    },
-    {
-        "imageURL" :  "assets/childbirthconnection.jpg",
-        "text" : "The Before, Between, and Beyond Pregnancy Website offers guidance and resources for patients and practitioners on integration of preconception care into practice.",
-        "header" : "Before, Between, and Beyond Pregnancy Website"
-    },
-    {
-        "imageURL" :  "assets/happy-breastfeeding-mothers.jpg",
-        "text" : "Base",
-        "header" : "Base"
-    },
-    {
-        "imageURL" :  "assets/marchofdimes-150.gif",
-        "text" : "Base",
-        "header" : "Base"
-    },
-    {
-        "imageURL" :  "assets/THSteps(1).gif",
-        "text" : "Base",
-        "header" : "Base"
     }
 ]

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import data from "src/assets/resources.json";
+import data from "src/assets/journey.json";
 @Component({
   selector: 'app-tab4',
   templateUrl: 'tab4.page.html',

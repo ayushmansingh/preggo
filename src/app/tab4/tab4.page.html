@@ -13,7 +13,7 @@
     </ion-toolbar>
   </ion-header>
   <div *ngIf = "myJourney">
-    <div *ngFor = "let resource of myJourney">
+    <div *ngFor = "let journey of myJourney">
       <ion-card>
         <img [src]="journey.imageURL"/>
         <ion-card-header>
