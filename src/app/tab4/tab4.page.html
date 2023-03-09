@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Resources
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Resources</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div *ngIf = "myResources">
+    <div *ngFor = "let resource of myResources">
+      <ion-card>
+        <img [src]="resource.imageURL"/>
+        <ion-card-header>
+          <ion-card-title>{{resource.header}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          {{resource.text}}
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+  <!--<app-explore-container name="Tab 3 page"></app-explore-container>-->
+  
+</ion-content>
