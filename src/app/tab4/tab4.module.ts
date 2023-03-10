@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { Tab4Page } from './tab4.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-
+import { NgCalendarModule  } from 'ionic2-calendar';
 import { Tab4PageRoutingModule } from './tab4-routing.module';
 
 @NgModule({
@@ -14,7 +14,8 @@ import { Tab4PageRoutingModule } from './tab4-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab4PageRoutingModule
+    Tab4PageRoutingModule,
+    NgCalendarModule
   ],
   declarations: [Tab4Page]
 })
