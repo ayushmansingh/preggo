@@ -12,6 +12,35 @@
       <ion-title size="large">Community</ion-title>
     </ion-toolbar>
   </ion-header>
+  <div *ngIf = "myCommunity">
+    <div *ngFor = "let community of myCommunity; index as i">
+      <ion-card (click)="openBrowser(i)">
+        <ion-card-header>
+          <ion-card-title>topic: {{community.area}}</ion-card-title>
+          <ion-card-subtitle>name: {{community.name}}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          question: {{community.topic}}
+        </ion-card-content>
+        <ion-card-content>
+          comments:
+        </ion-card-content>
+        <div *ngIf = "community.comments">
+          <div *ngFor = "let comment of community.comments; index as j">
+            <ion-card-header>
+              <ion-card-title>{{comment.name}}</ion-card-title>
+              <ion-card-subtitle>{{comment.comment}}</ion-card-subtitle>
+            </ion-card-header>
+          </div>
+  
+        </div>
+        
+      </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+      
+      
+    </div>
+  </div>
+  <!--<app-explore-container name="Tab 3 page"></app-explore-container>-->
+  
 </ion-content>

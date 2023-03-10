@@ -1,35 +1,39 @@
 [
     {
-        "broad area0" :  "delivery method/baby food/vaccinations etc",
-        "name0": "name of person starting the topic",
-        "topic0": "question to be asked or insight to be shared",
-        "comments0" : [
+        "area" :  "delivery method/baby food/vaccinations etc",
+        "name": "name of person starting the topic",
+        "topic": "question to be asked or insight to be shared",
+        "comments" : [
             {
-                "name01": "name of person giving the comment",
-                "comment01": "comment made"
+                "name": "name of person giving the comment",
+                "comment": "comment made"
             },
             {
-                "name02": "name of person giving the comment",
-                "comment02": "comment made"
+                "name": "name of person giving the comment",
+                "comment": "comment made"
             },
             {
-                "name03": "name of person giving the comment",
-                "comment03": "comment made"
+                "name": "name of person giving the comment",
+                "comment": "comment made"
             }
         ]
     },
     {
-        "broad area1" :  "delivery method/baby food/vaccinations etc",
-        "name1": "name of person starting the topic",
-        "topic1": "question to be asked or insight to be shared",
-        "comments1" : [
+        "area" :  "delivery method/baby food/vaccinations etc",
+        "name": "name of person starting the topic",
+        "topic": "question to be asked or insight to be shared",
+        "comments" : [
             {
-                "name11": "name of person giving the comment",
-                "comment11": "comment made"
+                "name": "name of person giving the comment",
+                "comment": "comment made"
             },
             {
-                "name12": "name of person giving the comment",
-                "comment12": "comment made"
+                "name": "name of person giving the comment",
+                "comment": "comment made"
+            },
+            {
+                "name": "name of person giving the comment",
+                "comment": "comment made"
             }
         ]
     }
