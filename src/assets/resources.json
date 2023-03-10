@@ -2,7 +2,8 @@
     {
         "imageURL" :  "assets/beyond.1.jpg",
         "text" : "MotherToBaby Texas TIPS is a free and confidential telephone counseling service that provides information about exposures related to pregnancy and breastfeeding.",
-        "header" : "Texas TIPS | Texas Teratogen Information in Pregnancy"
+        "header" : "Texas TIPS | Texas Teratogen Information in Pregnancy",
+        "url" : "https://med.uth.edu/texastips"
     },
     {
         "imageURL" :  "assets/Breastmilk_vert_Eng_CMYK.jpg",

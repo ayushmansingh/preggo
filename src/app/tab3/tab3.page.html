@@ -13,8 +13,8 @@
     </ion-toolbar>
   </ion-header>
   <div *ngIf = "myResources">
-    <div *ngFor = "let resource of myResources">
-      <ion-card>
+    <div *ngFor = "let resource of myResources; index as i">
+      <ion-card (click)="openBrowser(i)">
         <img [src]="resource.imageURL"/>
         <ion-card-header>
           <ion-card-title>{{resource.header}}</ion-card-title>
