@@ -29,5 +29,11 @@
         "imageURL" :  "assets/THSteps(1).gif",
         "text" : "Base",
         "header" : "Base"
+    },
+    {
+        "imageURL" :  "assets/Trimester image.jpg",
+        "text" : "Understanding Pregnancy Journey: A look into Trimesters",
+        "header" : "DayToDay | Maternity Care",
+        "url" : "https://www.daytoday.health/blog/understanding-pregnancy-journey-a-look-into-trimesters#:~:text=It%20is%20common%20knowledge%20that,by%20the%20mother%20each%20month."
     }
 ]
