@@ -2,7 +2,8 @@
     {
         "imageURL" :  "assets/beyond.1.jpg",
         "text" : "MotherToBaby Texas TIPS is a free and confidential telephone counseling service that provides information about exposures related to pregnancy and breastfeeding.",
-        "header" : "Texas TIPS | Texas Teratogen Information in Pregnancy"
+        "header" : "Texas TIPS | Texas Teratogen Information in Pregnancy",
+        "url" : "https://med.uth.edu/texastips"
     },
     {
         "imageURL" :  "assets/Breastmilk_vert_Eng_CMYK.jpg",
@@ -28,5 +29,11 @@
         "imageURL" :  "assets/THSteps(1).gif",
         "text" : "Base",
         "header" : "Base"
+    },
+    {
+        "imageURL" :  "assets/Trimester image.jpg",
+        "text" : "Understanding Pregnancy Journey: A look into Trimesters",
+        "header" : "DayToDay | Maternity Care",
+        "url" : "https://www.daytoday.health/blog/understanding-pregnancy-journey-a-look-into-trimesters#:~:text=It%20is%20common%20knowledge%20that,by%20the%20mother%20each%20month."
     }
 ]
