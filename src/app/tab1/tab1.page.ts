@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  isAppointmentset:boolean;
+  constructor() {
+    this.isAppointmentset = false;
+  }
 
 }

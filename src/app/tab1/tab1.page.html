@@ -96,6 +96,32 @@
         </ion-col>
       </ion-row>
     </ion-card>
+    <ion-card>
+      <ion-row>
+        <ion-col>
+          Next Doctor's Appointment
+        </ion-col>
+        <ion-col *ngIf = "isAppointmentset">
+          Appointment not set
+        </ion-col>
+        <ion-col *ngIf = "!isAppointmentset">
+          24th March 6:30 p.m
+        </ion-col>
+      </ion-row>
+    </ion-card>
+    <ion-card>
+      <ion-row>
+        <ion-col>
+          Next Diagnostic Appointment
+        </ion-col>
+        <ion-col *ngIf = "!isAppointmentset">
+          Appointment not set
+        </ion-col>
+        <ion-col *ngIf = "isAppointmentset">
+          24th March 6:30 p.m
+        </ion-col>
+      </ion-row>
+    </ion-card>
   </ion-grid>
 
 </ion-content>
