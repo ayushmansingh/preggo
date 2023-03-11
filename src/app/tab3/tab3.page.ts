@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Browser } from '@capacitor/browser';
+import { async } from 'rxjs';
 import data from "src/assets/resources.json";
 @Component({
   selector: 'app-tab3',
@@ -13,11 +14,9 @@ export class Tab3Page {
     this.myResources = data;
   }
 
-  openBrowser(i:any){
+  async openBrowser(i:any){
     console.log(this.myResources[i].url);
-    const openCapacitorSite = async () => {
       await Browser.open({ url: this.myResources[i].url });
-    };
   }
 
 }
