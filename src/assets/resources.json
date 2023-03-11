@@ -1,69 +1,68 @@
 [
     {
         "imageURL" :  "assets/beyond.1.jpg",
-        "text" : "MotherToBaby Texas TIPS is a free and confidential telephone counseling service that provides information about exposures related to pregnancy and breastfeeding.",
-        "header" : "Texas TIPS | Texas Teratogen Information in Pregnancy",
-        "url" : "https://med.uth.edu/texastips"
+        "text" : "Do you know that a pregnant woman requires approximately 300 extra calories per day to maintain a healthy pregnancy? Yes, that’s right! To gain these calories, one must follow the best diet for pregnant women, which includes whole grains, protein, fruits, and vegetables. Furthermore, sweets and unhealthy fats must be kept to a minimum.",
+        "header" : "A Healthy Pregnancy Diet Plan Every Woman Should Know",
+        "url" : "https://www.metropolisindia.com/blog/preventive-healthcare/a-healthy-pregnancy-diet-plan-every-woman-should-know/"
     },
     {
         "imageURL" :  "assets/Breastmilk_vert_Eng_CMYK.jpg",
         "text" : "During a woman’s pregnancy, the WIC Program teaches her how to breastfeed. Once she’s had her baby, WIC provides peer counseling and support as well as breast pumps and other breastfeeding supplies. Breastfeeding moms on WIC also receive more food and for a longer time period.",
-        "header" : "WIC Breastfeeding Support"
+        "header" : "WIC Breastfeeding Support",
+         "url" : "https://wicbreastfeeding.fns.usda.gov/"
     },
     {
         "imageURL" :  "assets/childbirthconnection.jpg",
-        "text" : "The Before, Between, and Beyond Pregnancy Website offers guidance and resources for patients and practitioners on integration of preconception care into practice.",
-        "header" : "Before, Between, and Beyond Pregnancy Website"
+        "text" : "Before, Between & Beyond Pregnancy is a preconception website for professionals created by the National Preconception Health & Health Care Initiative, a public-private partnership of over 70 organizations focused on improving the health of young women, men, and any children they may choose to have.",
+        "header" : "Before, Between, and Beyond Pregnancy",
+        "url" : "https://rhntc.org/resources/between-and-beyond-pregnancy-website"
     },
     {
         "imageURL" :  "assets/happy-breastfeeding-mothers.jpg",
-        "text" : "Base",
-        "header" : "Base"
+        "text" : "Reading pregnancy blogs as you approach your big day may give some insight into the emotional and physical changes that are happening inside the body, help prepare you for the inevitable birthing process, and provide engagement with like-minded people who are going through similar experiences.",
+        "header" : "Five Blogs To Read During Your Pregnancy",
+         "url" : "https://fleurhealth.com/blog/five-blogs-to-read-during-your-pregnancy/"
     },
     {
         "imageURL" :  "assets/marchofdimes-150.gif",
-        "text" : "Base",
-        "header" : "Base"
+        "text" : "My prefolds are deteriorating! For the past couple of weeks, I have to throw out a few diapers after each wash because they are in shreds. They are on their second baby round. Do you have any idea what would cause them to fall apart all of a sudden?",
+        "header" : "Baby Products | Cloth Diaper Lifespans",
+         "url" : "https://alphamom.com/pregnancy/baby-products/cloth-diaper-lifespans/"
     },
     {
         "imageURL" :  "assets/THSteps(1).gif",
-        "text" : "Base",
-        "header" : "Base"
+        "text" : "Being a mother is magical, right? And with the birth of a new- born life, a new- born mother is also brought to life. We know that taking care of your babies are much more difficult than it actually seems. Here are 7 most important things that would be of real use when the baby is born and it’s a great idea to keep all these products handy before your baby arrives.",
+        "header" : "7 Things a Mom Needs to Shop Before the Baby’s Arrival",
+         "url" : "https://www.mommyswall.com/7-things-mom-needs-shop-babys-arrival/"
     },
     {
         "imageURL" :  "assets/Trimester image.jpg",
-        "text" : "Understanding Pregnancy Journey: A look into Trimesters",
-        "header" : "DayToDay | Maternity Care",
+        "text" : "It is common knowledge that the pregnancy journey is 38 to 40 weeks long and divided into three trimesters. The three trimesters help measure the fetus’s milestones in the womb. It also helps to differentiate the magnitude of care and therapy required by the mother each month.",
+        "header" : "Understanding Pregnancy Journey: A look into Trimesters",
         "url" : "https://www.daytoday.health/blog/understanding-pregnancy-journey-a-look-into-trimesters#:~:text=It%20is%20common%20knowledge%20that,by%20the%20mother%20each%20month."
     },
     {
         "imageURL" :  "assets/Pregnancy Diet Charts.jpg",
-        "text" : "Pregnancy diet charts: trimester by trimester",
-        "header" : "By Diane Rai | Medically reviewed by Neelanjana Singh, Dietitian and Nutritionist | BabyCenter",
+        "text" : "If you're looking for ideas on what to eat to have a healthy pregnancy, you've come to the right place. With the help of our nutritionist Neelanjana Singh, we've created weekly pregnancy meal plans to help you have a healthy diet through each trimester of your pregnancy.",
+        "header" : "Pregnancy diet charts: trimester by trimester",
         "url" : "https://www.babycenter.in/a1046500/pregnancy-diet-charts-trimester-by-trimester"
     },
     {
         "imageURL" :  "assets/Pregnancy effects on mental health.jpg",
-        "text" : "Pregnancy effects on the mental health of women",
-        "header" : "By Dr Aparna Patil, Consultant Obstetrician & Gynecologist | ETHealthWorld",
+        "text" : "Pregnancy is one of the most exciting life events, but it can also bring in mixed thoughts. The mothers experience joy and excitement in giving birth to their young ones. However, the journey also creates fear, anxiety and depression. 1 in 5 pregnant women have mental health problems either during pregnancy or after childbirth",
+        "header" : "Pregnancy effects on the mental health of women",
         "url" : "https://health.economictimes.indiatimes.com/news/industry/pregnancy-effects-on-the-mental-health-of-women/94757886"
     },
     {
         "imageURL" :  "assets/Pregnancy exercises.jpg",
-        "text" : "15 Best Pregnancy Exercises by Trimester, According to Experts",
-        "header" : "BY STEFANI SASSOS, M.S., R.D.N., C.S.O., C.D.N., NASM-CPT| GOODHOUSEKEEPING",
+        "text" : "Whether you were a workout fanatic pre-pregnancy or didn't exercise at all, you may be wondering if exercise is even safe during pregnancy and what movements you can and cannot do. That's why fitness experts in the Good Housekeeping Institute Wellness Lab sat down with P.volve's Clinical Advisory Board to answer all of your questions on safe prenatal workouts, as well as the best pregnancy exercises by trimester.",
+        "header" : "15 Best Pregnancy Exercises by Trimester, According to Experts",
         "url" : "https://www.goodhousekeeping.com/health/fitness/a37050658/pregnancy-exercises/"
     },
     {
         "imageURL" :  "assets/10 fun things during pregnancy.jpg",
-        "text" : "10 fun things to do during pregnancy",
-        "header" : "By Priya Solomon Bellani | BabyCenter",
+        "text" : "You might feel like there is a lot you can't do or that you need to be cautious about now that you are pregnant. But that doesn't mean the fun has to stop. Here are some fun things to do in pregnancy to take your mind off the discomforts and enjoy yourself!",
+        "header" : "10 fun things to do during pregnancy",
         "url" : "https://www.babycenter.in/a1024023/10-fun-things-to-do-during-pregnancy"
-    },
-    {
-        "imageURL" :  "assets/11-Bollywood-Movies-To-Watch-During-Pregnancy.jpg",
-        "text" : "11 Bollywood Movies To Watch During Pregnancy",
-        "header" : "Baby Destination Editor | Home | Pregnancy | Complication During Pregnancy",
-        "url" : "https://www.babydestination.com/bollywood-movies-to-watch-during-pregnancy"
     }
 ]
