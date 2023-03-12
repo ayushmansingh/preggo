@@ -1,39 +1,108 @@
 [
     {
-        "area" :  "delivery method/baby food/vaccinations etc",
-        "name": "name of person starting the topic",
-        "topic": "question to be asked or insight to be shared",
+        "area" :  "Pregnancy care | First time Mas and Pas | First pregnancy worries",
+        "name": "Ayushman Singh",
+        "topic": "This is a thread for first time parents to share their thoughts and experiences, as well as concerns about having their child. Post your daily updates, share pictures of your bump, ask questions about your journey. Our community of Moms and Dads will help you along this journey.",
         "comments" : [
             {
-                "name": "name of person giving the comment",
-                "comment": "comment made"
+                "name": "Anjali Mishra",
+                "comment": "Hi all! I am 10 days late. Should i be worried? I recently lost a baby"
             },
             {
-                "name": "name of person giving the comment",
-                "comment": "comment made"
+                "name": "Dr. Sanjeev Singh",
+                "comment": "Hi Anjali, my wife recently gave birth to a healthy baby boy. We were in a similar situation as yours. However, we did not waste any time in visiting our doctor. Early interventions are critical in avoiding complications."
             },
             {
-                "name": "name of person giving the comment",
-                "comment": "comment made"
+                "name": "Pallavi Kumar",
+                "comment": "Hi Anjali! Please do not worry. What happened to you is perfectly normal. Just go visit your gynaecologist once. The visit itself will put your mind at ease."
             }
         ]
     },
+  
     {
-        "area" :  "delivery method/baby food/vaccinations etc",
-        "name": "name of person starting the topic",
-        "topic": "question to be asked or insight to be shared",
+        "area" :  "Pregnancy care | Morning Sickness | Cures and Remedies ",
+        "name": "Rashi Chandola",
+        "topic": "Morning sickness is feeling like throwing up, also called nausea, and throwing up, also called vomiting, that occurs during pregnancy. This thread is created especially for women who are concerned about morning sickness, or who are seeking remedies or solutions for the nausea",
         "comments" : [
             {
-                "name": "name of person giving the comment",
-                "comment": "comment made"
+                "name": "Komal",
+                "comment": "Anyone who’s due in October experiencing any morning sickness or nausea yet? I’m 5 weeks and 1 day pregnant, none for me…. Yet"
             },
             {
-                "name": "name of person giving the comment",
-                "comment": "comment made"
+                "name": "Mansi Kulkarni",
+                "comment": "Hi Komal, No morning sickness yet either :) feeling a bit of abdominal pressure if that makes sense"
             },
             {
-                "name": "name of person giving the comment",
-                "comment": "comment made"
+                "name": "Pallavi Kumar",
+                "comment": "I’m due the 9th and nothing yet. However, I did get motion sick in the car today for the first in my life."
+            },
+            {
+                "name": "Nirmala Singh",
+                "comment": "I’m almost 6 weeks now and don’t have any morning sickness yet either! I’m sure it will change though as I started getting morning sickness around 6-7 weeks with my first pregnancy."
+            }
+        ]
+    },
+    
+    {
+        "area" :  "Pregnancy care | How big is your baby bump? | Baby Health",
+        "name": "Rashi Chandola",
+        "topic": "Often mothers are worried about whether they are experiencing a normal pregnancy or not. This thread is for mothers who are facing similar concerns and hesiations. Share your baby bump stories and let our experienced community of parents help you with your worries.",
+        "comments" : [
+            {
+                "name": "Geetanshu",
+                "comment": "Hi everyone, I had a growth scan yesterday (28w 4d). They said that everything is good, only the head looks a bit big, not sure if this is because baby is head down now and measurements are not very accurate, but I am worried. Have you had something similar?"
+            },
+            {
+                "name": "Chinar Garg",
+                "comment": "Hi Geet, if your doctor said everything is good, then everything is probably good! Ultrasound measurements are imperfect."
+            },
+            {
+                "name": "Sapna Negi",
+                "comment": "My kids had huge heads. Like 80-90th percentile heads on 30-40th percentile babies lol.   If you're nervous, you can ask your doctor for an explanation, but in my experience my doctors would be overly cautious if there was a reason for concern."
+            },
+            {
+                "name": "Mira Nair",
+                "comment": "high risk mama here with biweekly scans and measurements. Doctors said everything is good then baby is in good range. My little man measured in the 11th percentile for weight and got him caught up but still get checks. Trust me they will tell you when something isn’t right and set you aside for a plan. Babies have all kinds of ranges."
+            }
+        ]
+    },
+    
+    {
+        "area" :  "Childcare | When should my baby start walking?",
+        "name": "Ayushman Singh",
+        "topic": "A common concern for new mothers is whether their baby is growing at a normal rate or not. Families are often curious about stages of a baby's development. If you are also curious about the next stage in your baby's growth, then this thread is for you.",
+        "comments" : [
+            {
+                "name": "Sakshi Monga",
+                "comment": "My baby is now 4 months old. What are your sleeping practices with your baby?"
+            },
+            {
+                "name": "Mansi Kulkarni",
+                "comment": "My son slept in a bassinet in our room until he was 5 months old. We transitioned him to his crib during naps first, then for nights. When he got the flu at 6 months old we moved him back to our room for a few days. I have taken naps with my son in our bed, mostly when he was sick but occasionally when he was younger and I was just exhausted. I believe those times were risky, but not dangerous."
+            },
+            {
+                "name": "Chinar Garg",
+                "comment": "We use a bassinet in our bedroom for her. I nurse her and soothe her throughout the night and will let her sleep on me but if I am sleeping, then she is in the bassinet. Can never be too careful ♥️."
+            }
+        ]
+    },
+  
+    {
+        "area" :  "Child and mother care | Breastfeeding emotions | Mental Health",
+        "name": "Rashi Chandola",
+        "topic": "Breastfeeding is an extremely emotional experience for new mothers. Often women struggle with bodily changes in this period and go through significant mental discomfort. If you are a lady experiencing something similar, feel free to share your concerns here and know that you are not alone.",
+        "comments" : [
+            {
+                "name": "Anonymous",
+                "comment": "This sounds crazy I know, I am trying to get my milk supply in (and failing), but that's not what I'm worried about. When i am hooked up to the pump I get this weird feeling of sadness in my gut, I feel like I want to cry. But as soon as I turn it off the feelings go away. Which is not helping me get motivated to pump. What is this and has anyone else had this issue?"
+            },
+            {
+                "name": "Purvi Mahajan",
+                "comment": "I haven't experienced this, but I know it's a thing! It's actually common enough that there's a name for it D- MER (dysmorphic milk ejection reflex). Here's some info on it: https://kellymom.com/bf/concerns/mother/d-mer/. It may be confirming to hear that this is a physiological response (not a psychological response) that appears to be tied to a sudden decrease in the brain chemical dopamine immediately before milk let-down. There's nothing wrong with you or weird about it, it's a chemical reaction related to the milk production."
+            },
+            {
+                "name": "Anonymous",
+                "comment": "Thank you! I'm going to look more into that! I did end up deciding to formula feed instead. The emotions were too much, and I was crying, like ugly crying multiple times a day. Since I've stopped trying to BF I have been in a great mood. It's upsetting that it didn't work out but it's okay 😊"
             }
         ]
     }
