@@ -1,0 +1,92 @@
+[
+    {
+        "area" : "Doctors",
+        "topic": "Find doctors to connect to",
+        "list" : [
+            {
+                "name": "Dr. Neha Talwar",
+                "contact": "+919415xxxxxx",
+                "google rating": "4.5+",
+                "field": "Obstetrician-gynecologist"
+            },
+            {
+                "name": "Dr. Shailee Mahajan",
+                "contact": "+919451xxxxxx",
+                "google rating": "4.2+",
+                "field": "Obstetrician-gynecologist"
+            },
+            {
+                "name": "Pallavi Kumar",
+                "comment": "Hi Anjali! Please do not worry. What happened to you is perfectly normal. Just go visit your gynaecologist once. The visit itself will put your mind at ease."
+            }
+        ]
+    },
+  
+    {
+        "area" : "Pre-Natal classes",
+        "topic": "Atten pre-natal classes",
+        "comments" : [
+            {
+                "name": "Komal",
+                "comment": "Anyone who’s due in October experiencing any morning sickness or nausea yet? I’m 5 weeks and 1 day pregnant, none for me…. Yet"
+            },
+            {
+                "name": "Mansi Kulkarni",
+                "comment": "Hi Komal, No morning sickness yet either :) feeling a bit of abdominal pressure if that makes sense"
+            },
+            {
+                "name": "Pallavi Kumar",
+                "comment": "I’m due the 9th and nothing yet. However, I did get motion sick in the car today for the first in my life."
+            },
+            {
+                "name": "Nirmala Singh",
+                "comment": "I’m almost 6 weeks now and don’t have any morning sickness yet either! I’m sure it will change though as I started getting morning sickness around 6-7 weeks with my first pregnancy."
+            }
+        ]
+    },
+    
+    {
+        "area" : "Therapists",
+        "topic": "Attend to your mental health with therapists",
+        "comments" : [
+            {
+                "name": "Geetanshu",
+                "comment": "Hi everyone, I had a growth scan yesterday (28w 4d). They said that everything is good, only the head looks a bit big, not sure if this is because baby is head down now and measurements are not very accurate, but I am worried. Have you had something similar?"
+            },
+            {
+                "name": "Chinar Garg",
+                "comment": "Hi Geet, if your doctor said everything is good, then everything is probably good! Ultrasound measurements are imperfect."
+            },
+            {
+                "name": "Sapna Negi",
+                "comment": "My kids had huge heads. Like 80-90th percentile heads on 30-40th percentile babies lol.   If you're nervous, you can ask your doctor for an explanation, but in my experience my doctors would be overly cautious if there was a reason for concern."
+            },
+            {
+                "name": "Mira Nair",
+                "comment": "high risk mama here with biweekly scans and measurements. Doctors said everything is good then baby is in good range. My little man measured in the 11th percentile for weight and got him caught up but still get checks. Trust me they will tell you when something isn’t right and set you aside for a plan. Babies have all kinds of ranges."
+            }
+        ]
+    },
+    
+    {
+        "area" :  "Yoga",
+        "name": "Ayushman Singh",
+        "topic": "A common concern for new mothers is whether their baby is growing at a normal rate or not. Families are often curious about stages of a baby's development. If you are also curious about the next stage in your baby's growth, then this thread is for you.",
+        "comments" : [
+            {
+                "name": "Sakshi Monga",
+                "comment": "My baby is now 4 months old. What are your sleeping practices with your baby?"
+            },
+            {
+                "name": "Mansi Kulkarni",
+                "comment": "My son slept in a bassinet in our room until he was 5 months old. We transitioned him to his crib during naps first, then for nights. When he got the flu at 6 months old we moved him back to our room for a few days. I have taken naps with my son in our bed, mostly when he was sick but occasionally when he was younger and I was just exhausted. I believe those times were risky, but not dangerous."
+            },
+            {
+                "name": "Chinar Garg",
+                "comment": "We use a bassinet in our bedroom for her. I nurse her and soothe her throughout the night and will let her sleep on me but if I am sleeping, then she is in the bassinet. Can never be too careful ♥️."
+            }
+        ]
+    },
+  
+    
+]
