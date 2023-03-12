@@ -1,0 +1,60 @@
+[
+    {
+        "imageURL" :  "assets/gynae.jpeg",
+        "area" : "Doctors",
+        "topic": "Find doctors to connect to",
+        "list" : [
+            {
+                "name": "Dr. Neha Talwar",
+                "contact": "+919415xxxxxx",
+                "rating": "4.5",
+                "qualification": "MBBS, MS, DNB"
+            },
+            {
+                "name": "Dr. Shailee Mahajan",
+                "contact": "+919451xxxxxx",
+                "rating": "4.2",
+                "qualification": "MBBS,MRCOG"
+            },
+            {
+                "name": "Dr. Rahul Jayant",
+                "contact": "+918953xxxxxx",
+                "rating": "4.7",
+                "qualification": "MBBS, DNB (OBG), FFMM,FICOG"
+            }
+        ]
+    },
+    {
+        "imageURL" :  "assets/yoga.jpeg",
+        "area" : "Yoga Classes",
+        "topic": "Attend online yoga classes",
+        "list" : [
+            {
+                "name": "Shayantan",
+                "contact": "+919415xxxxxx",
+                "rating": "3.5",
+                "qualification": "7+ yrs of experience"
+            },
+            {
+                "name": "Monali Deshmukh",
+                "contact": "+919411xxxxxx",
+                "rating": "4.1",
+                "qualification": "10+ yrs in the business"
+            }
+        ]
+    },
+    {
+        "imageURL" :  "assets/therapist.jpeg",
+        "area" : "Therapists",
+        "topic": "Talk to mental health professionals",
+        "list" : [
+            {
+                "name": "Dr. Abhilash Singh",
+                "contact": "+919415xxxxxx",
+                "rating": "4.0",
+                "qualification": "Clinical Psychologist"
+            }
+        ]
+    }
+    
+]
