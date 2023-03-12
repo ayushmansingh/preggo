@@ -5,5 +5,39 @@
 </ion-header>
 
 <ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Resources</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div *ngIf = "myResources">
+    <div *ngIf = "!cardClicked">
+    <div *ngFor = "let resource of myResources; index as i">
+      <ion-card (click)="cardIsClicked(i)">
+        <ion-card-header>
+          <ion-card-title>{{resource.area}}</ion-card-title>
+          <ion-card-subtitle>{{resource.topic}}</ion-card-subtitle>
+        </ion-card-header>
+      
+      </ion-card> 
+    </div>
+    </div>
+  </div>
+
+  <div *ngIf = "cardClicked">
+      <ion-card (click)="cardIsNotClicked()" color="blue">
+        <div *ngFor = "let listElement of myResources[cardNumber].list; index as j">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>name: {{listElement.name}}</ion-card-title>
+              <ion-card-subtitle>contact: {{listElement.contact}}</ion-card-subtitle>
+              <ion-card-subtitle>google rating: {{listElement.rating}}</ion-card-subtitle>
+              <ion-card-subtitle>qualification: {{listElement.qualification}}</ion-card-subtitle>
+            </ion-card-header>
+          
+          </ion-card> 
+        </div>
+      </ion-card>
+  </div>
   
 </ion-content>

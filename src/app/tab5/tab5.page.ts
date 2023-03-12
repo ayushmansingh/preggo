@@ -1,15 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import data from "src/assets/support.json";
 
 @Component({
   selector: 'app-tab5',
   templateUrl: './tab5.page.html',
   styleUrls: ['./tab5.page.scss'],
 })
-export class Tab5Page implements OnInit {
+export class Tab5Page {
 
-  constructor() { }
+  public cardClicked:boolean = false;
+  public cardNumber:number;
+  myResources:any[];
+  constructor() { 
+    this.myResources = data;
+  }
 
-  ngOnInit() {
+  cardIsClicked(i: number) {
+    this.cardClicked = true;
+    this.cardNumber = i;
+  }
+  cardIsNotClicked(){
+    this.cardClicked = false;
   }
 
 }
