@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Community</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf = "postDetails">
+    <div>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>{{postDetails.area}}</ion-card-title>
+          <ion-card-subtitle>{{postDetails.name}}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          {{postDetails.topic}}
+        </ion-card-content>
+      </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <ion-row>
+              <ion-col>
+                <ion-card-subtitle>Discussion</ion-card-subtitle>
+              </ion-col>
+              <ion-col style="text-align: right;">
+                <ion-icon name="book-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-card-header>
+        </ion-card>
+        <div *ngIf = "postDetails.comments">
+          <div *ngFor = "let comment of postDetails.comments; index as j">
+            <ion-card>
+            <ion-card-header>
+              <ion-card-subtitle>{{comment.name}}</ion-card-subtitle>
+              <ion-card-subtitle>{{comment.comment}}</ion-card-subtitle>
+            </ion-card-header>
+            </ion-card>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-item>
+    <ion-input placeholder="Enter Reply" [(ngModel)]="currentInput"></ion-input>
+    <ion-button shape="round" size="small" (click)="addReply()">Reply</ion-button>
+  </ion-item>
+</ion-footer>

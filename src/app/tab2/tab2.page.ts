@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Browser } from '@capacitor/browser';
+import { NavController } from '@ionic/angular';
 import data from "src/assets/community.json";
+import { CommentService } from '../comment.service';
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
@@ -9,15 +11,13 @@ import data from "src/assets/community.json";
 export class Tab2Page {
 
   myCommunity:any[];
-  constructor() {
+  constructor(public navCtrl: NavController, private commentService : CommentService) {
     this.myCommunity = data;
   }
 
-  openBrowser(i:any){
-    console.log(this.myCommunity[i].url);
-    const openCapacitorSite = async () => {
-      await Browser.open({ url: this.myCommunity[i].url });
-    };
+  openPost(i:any){
+    this.commentService.setId(i);
+    this.navCtrl.navigateForward(['post']);
   }
 
 }
