@@ -1,5 +1,6 @@
 [
     {
+        "imageURL" :  "assets/gynae.jpeg",
         "area" : "Doctors",
         "topic": "Find doctors to connect to",
         "list" : [
@@ -24,6 +25,7 @@
         ]
     },
     {
+        "imageURL" :  "assets/yoga.jpeg",
         "area" : "Yoga Classes",
         "topic": "Attend online yoga classes",
         "list" : [
@@ -42,6 +44,7 @@
         ]
     },
     {
+        "imageURL" :  "assets/therapist.jpeg",
         "area" : "Therapists",
         "topic": "Talk to mental health professionals",
         "list" : [

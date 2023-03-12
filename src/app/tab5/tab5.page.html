@@ -13,7 +13,10 @@
   <div *ngIf = "myResources">
     <div *ngIf = "!cardClicked">
     <div *ngFor = "let resource of myResources; index as i">
-      <ion-card (click)="cardIsClicked(i)">
+      <ion-card (click)="cardIsClicked(i)" width="180">
+        <div style="display: flex; align-items: right;justify-content: right;">
+        <img [src]="resource.imageURL" float-right/>
+      </div>
         <ion-card-header>
           <ion-card-title>{{resource.area}}</ion-card-title>
           <ion-card-subtitle>{{resource.topic}}</ion-card-subtitle>
