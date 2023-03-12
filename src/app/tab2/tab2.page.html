@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="danger">
+  <ion-toolbar>
     <ion-title>
       Community
     </ion-title>
@@ -16,29 +16,13 @@
     <div *ngFor = "let community of myCommunity; index as i">
       <ion-card (click)="openPost(i)">
         <ion-card-header>
-          <ion-card-title>topic: {{community.area}}</ion-card-title>
-          <ion-card-subtitle>name: {{community.name}}</ion-card-subtitle>
+          <ion-card-title>{{community.area}}</ion-card-title>
+          <ion-card-subtitle>{{community.name}}</ion-card-subtitle>
         </ion-card-header>
         <ion-card-content>
-          question: {{community.topic}}
+          {{community.topic}}
         </ion-card-content>
-        <ion-card-content>
-          comments:
-        </ion-card-content>
-        <div *ngIf = "community.comments">
-          <div *ngFor = "let comment of community.comments; index as j">
-            <ion-card-header>
-              <ion-card-title>{{comment.name}}</ion-card-title>
-              <ion-card-subtitle>{{comment.comment}}</ion-card-subtitle>
-            </ion-card-header>
-          </div>
-  
-        </div>
-        
       </ion-card>
-
-      
-      
     </div>
   </div>
   <!--<app-explore-container name="Tab 3 page"></app-explore-container>-->
