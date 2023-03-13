@@ -6,11 +6,16 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class AppointmentService {
 
-  private appointmentSet$ = new BehaviorSubject<any>({});
-  selectedDate$ = this.appointmentSet$.asObservable();
-  constructor() { }
+  hasAppointmentBeenvisited:Boolean;
+  constructor() { 
+    this.hasAppointmentBeenvisited = false;
+  }
 
-  setAppointmentDate(appointmentSet:any){
-    this.appointmentSet$.next(appointmentSet);
+  setAppointmentDate(){
+    this.hasAppointmentBeenvisited = true;
+  }
+
+  getAppointmentDate(){
+    return this.hasAppointmentBeenvisited;
   }
 }

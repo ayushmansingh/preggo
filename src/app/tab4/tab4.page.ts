@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { CalendarMode, QueryMode, Step } from 'ionic2-calendar';
 import { CalendarComponent } from 'ionic2-calendar';
 import data from "src/assets/journey.json";
+import { AppointmentService } from '../appointment.service';
 @Component({
   selector: 'app-tab4',
   templateUrl: 'tab4.page.html',
@@ -10,10 +11,9 @@ import data from "src/assets/journey.json";
 export class Tab4Page {
   @ViewChild(CalendarComponent) myCalendar!: CalendarComponent;
 
-  constructor() {
+  constructor(private appointmentService:AppointmentService) {
     this.isToday = false;
   }
-
   eventSource: any = [];
   viewTitle: any;
   isToday: boolean;
@@ -136,6 +136,7 @@ export class Tab4Page {
   }
 
   addDummyEvent() {
+    this.appointmentService.setAppointmentDate();
     var startTime = new Date(
       Date.UTC(
         2023,

@@ -1,3 +1,4 @@
+import { AppointmentService } from './../appointment.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,9 +8,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  isAppointmentset:boolean;
-  constructor() {
-    this.isAppointmentset = false;
+  isAppointmentset:Boolean;
+  constructor(private appointmentService: AppointmentService) {
+  }
+
+  ionViewDidEnter(){
+    this.isAppointmentset = this.appointmentService.getAppointmentDate();
   }
 
 }

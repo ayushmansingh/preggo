@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import data from "src/assets/support.json";
+import { AppointmentService } from '../appointment.service';
 
 @Component({
   selector: 'app-tab5',
