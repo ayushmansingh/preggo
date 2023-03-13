@@ -6,19 +6,19 @@
         "list" : [
             {
                 "name": "Dr. Neha Talwar",
-                "contact": "+919415xxxxxx",
+                "contact": "+919415512612",
                 "rating": "4.5",
                 "qualification": "MBBS, MS, DNB"
             },
             {
                 "name": "Dr. Shailee Mahajan",
-                "contact": "+919451xxxxxx",
+                "contact": "+919451124372",
                 "rating": "4.2",
                 "qualification": "MBBS,MRCOG"
             },
             {
                 "name": "Dr. Rahul Jayant",
-                "contact": "+918953xxxxxx",
+                "contact": "+918953611789",
                 "rating": "4.7",
                 "qualification": "MBBS, DNB (OBG), FFMM,FICOG"
             }
@@ -31,13 +31,13 @@
         "list" : [
             {
                 "name": "Shayantan",
-                "contact": "+919415xxxxxx",
+                "contact": "+919415983345",
                 "rating": "3.5",
                 "qualification": "7+ yrs of experience"
             },
             {
                 "name": "Monali Deshmukh",
-                "contact": "+919411xxxxxx",
+                "contact": "+919411002361",
                 "rating": "4.1",
                 "qualification": "10+ yrs in the business"
             }
@@ -50,7 +50,7 @@
         "list" : [
             {
                 "name": "Dr. Abhilash Singh",
-                "contact": "+919415xxxxxx",
+                "contact": "+919415612882",
                 "rating": "4.0",
                 "qualification": "Clinical Psychologist"
             }
