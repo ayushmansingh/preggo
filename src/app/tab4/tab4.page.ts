@@ -122,7 +122,7 @@ export class Tab4Page {
   onTimeSelected
   (ev: { selectedTime: Date, events: any[], disabled: boolean }) 
   {
-    this.addEvent(ev.selectedTime)
+    // this.addDummyEvent();
 };
 
 
@@ -135,29 +135,31 @@ export class Tab4Page {
     console.log('Currently viewed date: ' + ev);
   }
 
-  addEvent(ev: Date) {
+  addDummyEvent() {
     var startTime = new Date(
       Date.UTC(
-        ev.getUTCFullYear(),
-        ev.getUTCMonth(),
-        ev.getUTCDate(),
-        ev.getUTCDate(),
-        ev.getHours(),
-        ev.getMinutes()
+        2023,
+        2,
+        24,
+        13,
+        0,
+        10,
+        10
       )
     );
     var endTime = new Date(
       Date.UTC(
-        startTime.getUTCFullYear(),
-        startTime.getUTCMonth(),
-        startTime.getUTCDate(),
-        startTime.getHours(),
-        startTime.getMinutes(),
-        startTime.getSeconds() + 30
+        2023,
+        2,
+        24,
+        13,
+        30,
+        10,
+        10
       )
     );
     this.eventSource.push({
-      title: 'Appointment',
+      title: 'Doctors Appointment',
       startTime,
       endTime,
       allDay: false,
@@ -234,7 +236,8 @@ export class Tab4Page {
 
   onDayHeaderSelected = (ev: { selectedTime: Date, events: any[], disabled: boolean }) => {
     console.log('Selected day: ' + ev.selectedTime + ', hasEvents: ' + (ev.events !== undefined && ev.events.length !== 0) + ', disabled: ' + ev.disabled);
-};
+    this.addDummyEvent();
+  };
 
   markDisabled = (date: Date) => {
     var current = new Date();
